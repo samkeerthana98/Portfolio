@@ -369,6 +369,21 @@ body {
     line-height: 1.8;
 }
 
+.project-link {
+    display: inline-block;
+    margin-top: 1.25rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    color: var(--primary-dark);
+    transform: translateX(4px);
+}
+
 /* Education Section */
 .education {
     padding: 5rem 0;
